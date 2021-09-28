@@ -187,7 +187,7 @@ if __name__ == '__main__':
                 
         return C[0]
     
-    
+    # Compare runtimes
     for N in [500]:
         slow_metrics(K, T, S0, r, N, u, d, opttype='C')
         fast_metrics(K, T, S0, r, N, u, d, opttype='C')
